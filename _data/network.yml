@@ -1,21 +1,21 @@
-- menu_name: "Dankeschön"
+- menu_name: "Hello World"
 
-- name: "Icons by Daniel Bruce"
+- name: "Sponsor 1"
   url: "http://entypo.com/"
   class: "network-entypo"
   title: "Icons by Daniel Bruce"
 
-- name: "Built on Foundation"
+- name: "Sponsor 2"
   url: "http://foundation.zurb.com/"
   class: "services-newsletter"
   title: "Built on Foundation"
 
-- name: "Images by Unsplash"
+- name: "Sponsor 3"
   url: "http://unsplash.com/"
   class: "rss-link"
   title: "Images by Unsplash"
 
-- name: "Using Backstretch by Scott Robbin"
+- name: "Sponsor 4"
   url: "http://srobbin.com/jquery-plugins/backstretch/"
   class: "sitemap-link"
   title: "Using Backstretch by Scott Robbin"
