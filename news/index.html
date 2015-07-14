@@ -1,0 +1,23 @@
+---
+layout: default
+title: "News Archive"
+teaser: "This is where the news archive is located."
+breadcrumb: false
+header:
+   image_fullwidth: header_unsplash_5.jpg
+---
+<div id="blog-index" class="row">
+	<div class="small-12 columns t30">
+		<h1>{{ page.title }}</h1>
+		{% if page.teaser %}<p class="teaser">{{ page.teaser }}</p>{% endif %}
+
+			{% for new in site.news limit:1000 %}
+  			<a href="{{ site.url }}{{ new.url }}"><span class="iconfont"></span> {% if new.subheadline %}{{ new.subheadline }} › {% endif %}<strong>{{ new.title }}</strong></a>
+				<div id="panel{{ counter }}" class="content">
+					{% if new.meta_description %}{{ new.meta_description | strip_html | escape }}{% elsif new.teaser %}{{ new.teaser | strip_html | escape }}{% endif %}
+			  </div>
+        <br><br>
+			{% endfor %}
+
+	</div><!-- /.small-12.columns -->
+</div><!-- /.row -->

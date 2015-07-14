@@ -7,21 +7,12 @@
   side: left
 
 - title: "Announcements"
-  url: "#"
+  url: "/news"
   side: left
 
 - title: "History"
-  url: "#"
+  url: "/history"
   side: left
-  dropdown:
-  - title: "History 1"
-    url: "#"
-  - title: "History 2"
-    url: "#"
-  - title: "History 3 "
-    url: "#"
-  - title: "History 4"
-    url: "#"
 
 - title: Schedules
   url: "#"
@@ -35,7 +26,7 @@
     url: "#"
 
 - title: Blog
-  url: "#"
+  url: "/blog/archive/"
   side: left
 
 - title: "Search"

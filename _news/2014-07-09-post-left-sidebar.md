@@ -1,7 +1,7 @@
 ---
 layout: page
 sidebar: left
-subheadline: Templates
+subheadline: Announcement
 title:  "Page/Post With Left Sidebar"
 teaser: "This is a example of page/post with a sidebar on the left."
 tags:
@@ -9,7 +9,7 @@ tags:
 categories:
     - design
 image:
-    title: "header_unsplash_5.jpg"
+    title: "unsplash_1.jpg"
     caption: Unsplash.com
     caption_url: http://unsplash.com
 ---

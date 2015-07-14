@@ -57,7 +57,9 @@ excerpt_separator: "\n\n"
 exclude: []
 include: ['.htaccess']
 
-
+collections:
+  news:
+    output: true
 # The language setting is used in /includes/header.html for html-settings
 language: "en"
 
