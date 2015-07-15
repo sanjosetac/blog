@@ -30,11 +30,12 @@ format: page-fullwidth
 				{{ page.teaser }}
 			</p>
 			{% endif %}
-			
+
 			{{ content }}
 		</article>
 
+		{% if page.comments == true %}
+		{% include comments.html %}
+		{% endif %}
 	</div><!-- /.medium-12.columns -->
 </div><!-- /.row -->
-
-

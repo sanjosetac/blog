@@ -4,13 +4,14 @@ sidebar: left
 subheadline: Announcement
 title:  "Page/Post With Left Sidebar"
 teaser: "This is a example of page/post with a sidebar on the left."
+comments: true
 tags:
     - post format
 categories:
     - design
 image:
-    title: "unsplash_1.jpg"
-    caption: Unsplash.com
+    title: "header_unsplash_5.jpg"
+    caption: "Hello World"
     caption_url: http://unsplash.com
 ---
 *Feeling Responsive* shows metadata by default. The default behaviour can be changed via `config.yml`. To show metadata at the end of a page/post just add the following to front matter:

@@ -5,6 +5,7 @@ subheadline: "News"
 meta_teaser: "A story is told of a brand new bishop receiving a promise from a young father that he would be obedient in living the principle of tithing every year."
 teaser: "A story is told of a brand new bishop receiving a promise from a young father that he would be obedient in living the principle of tithing every year. The end of the first year came and the man faithfully paid his tithing of $1,000. The next year the man was blessed with a new job and salary making his contribution by year end $10,000."
 header: no
+comments: true
 image:
     thumb:  homepage_typography_thumb.jpg
     homepage: homepage_typography.jpg
