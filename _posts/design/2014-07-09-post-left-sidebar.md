@@ -8,6 +8,7 @@ tags:
     - post format
 categories:
     - design
+comments: true    
 image:
     title: "header_unsplash_5.jpg"
     caption: Unsplash.com
